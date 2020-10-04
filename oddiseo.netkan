@@ -9,6 +9,7 @@
 	"author": "Tattie Kerbal",
 	"ksp_version": "1.10.1",
 	"ksp_version_strict" : false,
+	"version": "v0.1",
 	"depends": [
         { "name": "ContractConfigurator" }
     ],
