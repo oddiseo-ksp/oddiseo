@@ -1,6 +1,6 @@
 # Oddiseo Corp KSP missions
 
-Missions for Kerbal Space Program with an emphasis on in-situ repair and rescue. Requires Contract Configurator to run, and KIS (Kerbal Inventory System).
+Missions for Kerbal Space Program with an emphasis on in-situ repair and rescue. Requires Contract Configurator to run, and KIS (Kerbal Inventory System) in order to actually complete the missions.
 
 ## Manual installation
 
