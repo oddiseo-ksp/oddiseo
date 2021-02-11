@@ -4,12 +4,13 @@ Missions for Kerbal Space Program with an emphasis on in-situ repair and rescue.
 
 ## Installation using KCAN
 
-* Install KCAN from https://github.com/KSP-CKAN/CKAN/releases
+* Install KCAN from https://github.com/KSP-CKAN/CKAN/releases and run it
 * Search for and install "Oddiseo Corp Contracts"
 
 ## Installation on Linux
 
 * Make sure Contract Configurator is installed
+* Download this repository to your machine
 * Run ./install.sh to install the missions to your KSP installation. You will be prompted for the location of your installation the first time you run this command.
 
 ## Manual installation
