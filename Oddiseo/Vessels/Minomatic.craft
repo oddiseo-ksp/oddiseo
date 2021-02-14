@@ -1,8 +1,8 @@
 ship = Minomatic
-version = 1.10.1
+version = 1.11.1
 description = 
 type = VAB
-size = 9.58428383,7.38940239,4.64084148
+size = 9.58428383,5.40874481,4.60438776
 steamPublishedFileId = 0
 persistentId = 3984603518
 rot = 0,0,0,0
@@ -190,6 +190,7 @@ PART
 		damperTweakable = 1
 		autoSpringDamper = True
 		suspensionPos = (-1, -1, -1)
+		suspensionDefaultPos = (0, -0.120109171, 2.78353691E-05)
 		autoBoost = 0
 		stagingEnabled = True
 		EVENTS
@@ -271,6 +272,24 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
@@ -280,7 +299,7 @@ PART
 	pos = 3.37776732,15.1130629,-0.822419584
 	attPos = -0.0629781485,0.0456442833,-8.94069672E-08
 	attPos0 = 1.2629782,-3.44564438,8.94069672E-08
-	rot = 0,-0.981516719,-0.191376492,-1.49011612E-08
+	rot = 2.98023224E-08,-0.981516719,-0.191376492,-1.49011612E-08
 	attRot = -1.26301956E-07,0.26564458,-0.655311286,0.707106769
 	attRot0 = 0.395070106,0.395070106,0.586446583,0.586446583
 	mir = 1,1,1
@@ -352,6 +371,7 @@ PART
 		damperTweakable = 1
 		autoSpringDamper = True
 		suspensionPos = (-1, -1, -1)
+		suspensionDefaultPos = (0, -0.120109171, 2.78353691E-05)
 		autoBoost = 0
 		stagingEnabled = True
 		EVENTS
@@ -422,6 +442,24 @@ PART
 		name = ModuleWheelDamage
 		isEnabled = True
 		isDamaged = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -514,6 +552,7 @@ PART
 		damperTweakable = 1
 		autoSpringDamper = True
 		suspensionPos = (-1, -1, -1)
+		suspensionDefaultPos = (0, -0.120109171, 2.78353691E-05)
 		autoBoost = 0
 		stagingEnabled = True
 		EVENTS
@@ -595,6 +634,24 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
@@ -604,7 +661,7 @@ PART
 	pos = -3.42223287,15.1130629,-0.822419584
 	attPos = -0.0829871893,-0.093562603,-8.94069672E-08
 	attPos0 = 1.28298724,3.4935627,8.94069672E-08
-	rot = 0,-0.981516719,-0.191376492,-1.49011612E-08
+	rot = 2.98023224E-08,-0.981516719,-0.191376492,-1.49011612E-08
 	attRot = -1.26301956E-07,0.26564458,-0.655311286,0.707106769
 	attRot0 = 0.395070106,0.395070106,0.586446583,0.586446583
 	mir = 1,1,1
@@ -676,6 +733,7 @@ PART
 		damperTweakable = 1
 		autoSpringDamper = True
 		suspensionPos = (-1, -1, -1)
+		suspensionDefaultPos = (0, -0.120109171, 2.78353691E-05)
 		autoBoost = 0
 		stagingEnabled = True
 		EVENTS
@@ -757,6 +815,24 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
@@ -807,6 +883,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 }
 PART
@@ -859,6 +953,24 @@ PART
 	PARTDATA
 	{
 	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
@@ -910,6 +1022,24 @@ PART
 	PARTDATA
 	{
 	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
@@ -960,6 +1090,24 @@ PART
 	}
 	PARTDATA
 	{
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 }
 PART
@@ -1299,10 +1447,10 @@ PART
 	part = RadialDrill_4294203644
 	partName = Part
 	persistentId = 3561962085
-	pos = -0.822232723,17.3130627,-0.422420323
+	pos = -0.822232783,17.3130627,-0.422420561
 	attPos = -1.27897692E-13,-0.160600662,-0.0778673291
 	attPos0 = -5.96047229E-08,-0.0394000411,-0.722132981
-	rot = 0,0.707106769,0,-0.707106948
+	rot = 0,0.707106769,0,-0.707107067
 	attRot = 0,0,0,0.999999881
 	attRot0 = 0,0.707106769,0,-0.707106888
 	mir = 1,1,1
@@ -1454,7 +1602,7 @@ PART
 	{
 		name = ModuleAnimationGroup
 		isEnabled = True
-		isDeployed = True
+		isDeployed = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1518,10 +1666,10 @@ PART
 	part = RadialDrill_4294201420
 	partName = Part
 	persistentId = 938099407
-	pos = -0.822232723,17.3130627,1.17758155
+	pos = -0.822232783,17.3130627,1.17758179
 	attPos = 1.19209318E-07,-0.160600662,0.077867806
 	attPos0 = 5.96047229E-08,-0.0394000411,0.722132921
-	rot = 0,0.707106948,-1.2344529E-08,0.707106769
+	rot = 0,0.707107008,-1.41523486E-08,0.707106769
 	attRot = 0,0,0,0.999999881
 	attRot0 = 0,0.707106829,0,0.707106829
 	mir = 1,1,1
@@ -1673,7 +1821,7 @@ PART
 	{
 		name = ModuleAnimationGroup
 		isEnabled = True
-		isDeployed = True
+		isDeployed = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1737,7 +1885,7 @@ PART
 	part = RadialDrill_4294202496
 	partName = Part
 	persistentId = 912900358
-	pos = 0.977767408,17.3130627,1.17758131
+	pos = 0.977767408,17.3130627,1.17758155
 	attPos = 1.19209531E-07,-0.166755736,0.0800256133
 	attPos0 = 5.96048153E-08,-0.0332450382,0.719976127
 	rot = 0,0.707107067,5.11326448E-09,0.707106769
@@ -1892,7 +2040,7 @@ PART
 	{
 		name = ModuleAnimationGroup
 		isEnabled = True
-		isDeployed = True
+		isDeployed = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1956,7 +2104,7 @@ PART
 	part = RadialDrill_4294201000
 	partName = Part
 	persistentId = 3520205304
-	pos = 0.977767408,17.3130627,-0.422420204
+	pos = 0.977767408,17.3130627,-0.422420442
 	attPos = -2.38418949E-07,-0.166755736,-0.0800253153
 	attPos0 = 1.78814034E-07,-0.0332450382,-0.719976127
 	rot = 0,0.707106888,0,-0.707106888
@@ -2111,7 +2259,7 @@ PART
 	{
 		name = ModuleAnimationGroup
 		isEnabled = True
-		isDeployed = True
+		isDeployed = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2175,7 +2323,7 @@ PART
 	part = RadialDrill_4294201830
 	partName = Part
 	persistentId = 1367534522
-	pos = 2.77776718,17.3130627,1.17758155
+	pos = 2.77776718,17.3130627,1.17758179
 	attPos = 1.19209673E-07,-0.183149427,0.083611846
 	attPos0 = 5.96048579E-08,-0.0168514326,0.716391146
 	rot = 0,0.707107067,5.11326448E-09,0.707106769
@@ -2330,7 +2478,7 @@ PART
 	{
 		name = ModuleAnimationGroup
 		isEnabled = True
-		isDeployed = True
+		isDeployed = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2394,7 +2542,7 @@ PART
 	part = RadialDrill_4294199922
 	partName = Part
 	persistentId = 2461583819
-	pos = 2.77776718,17.3130627,-0.422420323
+	pos = 2.77776718,17.3130627,-0.422420561
 	attPos = -4.26325641E-14,-0.183149427,-0.0836114287
 	attPos0 = -5.96048579E-08,-0.0168514326,-0.716391146
 	rot = 0,0.707106888,0,-0.707106888
@@ -2549,7 +2697,7 @@ PART
 	{
 		name = ModuleAnimationGroup
 		isEnabled = True
-		isDeployed = True
+		isDeployed = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2613,7 +2761,7 @@ PART
 	part = RadialDrill_4294204052
 	partName = Part
 	persistentId = 3468032830
-	pos = -2.62223315,17.3130627,1.17758107
+	pos = -2.62223315,17.3130627,1.17758131
 	attPos = 1.19209304E-07,-0.143360138,0.08781147
 	attPos0 = 5.9604659E-08,-0.056640625,0.7121889
 	rot = 0,0.707107067,5.11326448E-09,0.707106769
@@ -2768,7 +2916,7 @@ PART
 	{
 		name = ModuleAnimationGroup
 		isEnabled = True
-		isDeployed = True
+		isDeployed = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2832,7 +2980,7 @@ PART
 	part = RadialDrill_4294197544
 	partName = Part
 	persistentId = 758977616
-	pos = -2.62223315,17.3130627,-0.422419965
+	pos = -2.62223315,17.3130627,-0.422420204
 	attPos = -1.42108547E-14,-0.143360138,-0.0878112912
 	attPos0 = -5.9604659E-08,-0.056640625,-0.7121889
 	rot = 0,0.707106888,0,-0.707106888
@@ -2987,7 +3135,7 @@ PART
 	{
 		name = ModuleAnimationGroup
 		isEnabled = True
-		isDeployed = True
+		isDeployed = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3156,6 +3304,24 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
@@ -3267,13 +3433,31 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
 	part = foldingRadMed_4294191150
 	partName = Part
 	persistentId = 585752162
-	pos = 0.977767289,18.5130634,0.577580512
+	pos = 0.97776705,18.5130634,0.577580512
 	attPos = 0.0432303585,-2.02655792E-06,0.0386618525
 	attPos0 = -0.0432304479,1.00000203,0.161338478
 	rot = 0,0.707106888,-0.707106888,0
@@ -3378,6 +3562,24 @@ PART
 		{
 		}
 	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
 }
 PART
 {
@@ -3433,7 +3635,7 @@ PART
 		isEnabled = True
 		currentRotation = (0, 0, 0, 1)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -3484,6 +3686,24 @@ PART
 				actionGroup = None
 				active = False
 			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -3561,7 +3781,7 @@ PART
 	RESOURCE
 	{
 		name = MonoPropellant
-		amount = 750
+		amount = 0
 		maxAmount = 750
 		flowState = True
 		isTweakable = True
@@ -3641,7 +3861,7 @@ PART
 	RESOURCE
 	{
 		name = MonoPropellant
-		amount = 750
+		amount = 0
 		maxAmount = 750
 		flowState = True
 		isTweakable = True
@@ -3658,7 +3878,7 @@ PART
 	pos = 4.20776701,15.7130632,1.3775804
 	attPos = 0.00418180227,0.0417308658,-0.0464747548
 	attPos0 = -0.604181945,-0.0417308658,1.04647458
-	rot = 0.683012486,-0.183013871,-0.683012545,0.183013692
+	rot = 0.683012486,-0.183013886,-0.683012545,0.183013633
 	attRot = 0.707106709,0,0,0.707106709
 	attRot0 = 0.612373054,0.353552401,-0.35355252,0.612372994
 	mir = 1,1,1
@@ -3707,7 +3927,7 @@ PART
 		launchUT = -1
 		currentRotation = (0, 0, -0.707106829, 0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -3734,8 +3954,44 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = KISCollider
 		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KopernicusSolarPanels
+		isEnabled = True
+		trackingBodyName = 
+		_manualTracking = False
+		_relativeSunAoa = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3753,10 +4009,10 @@ PART
 	part = largeSolarPanel_4294181628
 	partName = Part
 	persistentId = 3954177754
-	pos = 4.20776701,15.7130642,-0.622419775
+	pos = 4.20776701,15.7130642,-0.622420251
 	attPos = 0.00418186188,0.0417308658,0.0464749336
 	attPos0 = -0.604182184,-0.0417308658,-1.04647481
-	rot = -0.683012545,0.183013827,-0.683012486,0.183013618
+	rot = -0.683012486,0.183013827,-0.683012486,0.183013618
 	attRot = 0.707106709,0,0,0.707106709
 	attRot0 = -0.612373054,-0.353552431,-0.35355258,0.612372994
 	mir = 1,1,1
@@ -3805,7 +4061,7 @@ PART
 		launchUT = -1
 		currentRotation = (0, 0, -0.707106829, 0.707106829)
 		storedAnimationTime = 0
-		storedAnimationSpeed = -10
+		storedAnimationSpeed = 1
 		deployState = RETRACTED
 		stagingEnabled = True
 		EVENTS
@@ -3832,8 +4088,44 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = KISCollider
 		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KopernicusSolarPanels
+		isEnabled = True
+		trackingBodyName = 
+		_manualTracking = False
+		_relativeSunAoa = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3854,7 +4146,7 @@ PART
 	pos = -4.25223255,15.7130632,1.3775804
 	attPos = 0.00481122732,-0.132448629,-0.0475645661
 	attPos0 = -0.60481137,0.132448629,1.04756439
-	rot = 0.683012486,-0.183013871,-0.683012545,0.183013692
+	rot = 0.683012486,-0.183013886,-0.683012545,0.183013633
 	attRot = 0.707106709,0,0,0.707106709
 	attRot0 = 0.612373054,0.353552401,-0.35355252,0.612372994
 	mir = 1,1,1
@@ -3930,8 +4222,44 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = KISCollider
 		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KopernicusSolarPanels
+		isEnabled = True
+		trackingBodyName = 
+		_manualTracking = False
+		_relativeSunAoa = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3949,10 +4277,10 @@ PART
 	part = largeSolarPanel_4294181380
 	partName = Part
 	persistentId = 3106989992
-	pos = -4.25223255,15.7130642,-0.622419775
+	pos = -4.25223255,15.7130642,-0.622420251
 	attPos = 0.00481128693,-0.132448629,0.0475647449
 	attPos0 = -0.604811609,0.132448629,-1.04756463
-	rot = -0.683012545,0.183013827,-0.683012486,0.183013618
+	rot = -0.683012486,0.183013827,-0.683012486,0.183013618
 	attRot = 0.707106709,0,0,0.707106709
 	attRot0 = -0.612373054,-0.353552431,-0.35355258,0.612372994
 	mir = 1,1,1
@@ -4028,8 +4356,44 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleCargoPart
+		isEnabled = True
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = KISCollider
 		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KopernicusSolarPanels
+		isEnabled = True
+		trackingBodyName = 
+		_manualTracking = False
+		_relativeSunAoa = False
 		stagingEnabled = True
 		EVENTS
 		{
